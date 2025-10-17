@@ -1,0 +1,54 @@
+papers:
+
+- title: "Efficiency and resilience: key drivers of distribution network growth"
+  authors: "<b>Ambra Amico<b>, Giacomo Vaccario, Frank Schweitzer"
+  venue: "EPJ Data Science. 2024."
+  # paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: y
+
+
+- title: "Tracing opioids across the us: A high-resolution pharmaceutical distribution dataset"
+  authors: "<b>Ambra Amico<b>, Luca Verginer, Frank Schweitzer"
+  venue: "Scientific Data. 2024."
+  # paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: y
+
+- title: "Adapting to disruptions: Managing supply chain resilience through product rerouting"
+  authors: "<b>Ambra Amico<b>, Luca Verginer, Giona Casiraghi, Giacomo Vaccario, Frank Schweitzer"
+  venue: "Science advances. 2024."
+  #paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: y
+
+
+- title: "Adapting to disruptions: Managing supply chain resilience through product rerouting"
+  authors: "<b>Ambra Amico<b>, Luca Verginer, Giona Casiraghi, Giacomo Vaccario, Frank Schweitzer"
+  venue: "Science advances. 2024."
+  #paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: y
+
+  # - title: "Engaging Politically Diverse Audiences on Social Media"
+  #   authors: "<b>Martin Saveski</b>, Doug Beeferman, David McClure, Deb Roy"
+  #   venue: "ICWSM'22: International AAAI Conference on Web and Social Media. 2022."
+  #   paper_pdf: "/assets/publications/2022_newsbridge/paper.pdf"
+  #   selected: y
+
+  # - title: "Perspective-taking to Reduce Affective Polarization on Social Media"
+  #   authors: "<b>Martin Saveski<sup>‡</sup></b>, Nabeel Gillani<sup>‡</sup>, Ann Yuan, Prashanth Vijayaraghavan, Deb Roy"
+  #   venue: "ICWSM'22: International AAAI Conference on Web and Social Media. 2022."
+  #   paper_pdf: "/assets/publications/2022_flipfeed/paper.pdf"
+  #   code: "https://github.com/msaveski/twitter_perspective_taking"
+  #   data: "https://github.com/msaveski/twitter_perspective_taking"
+  #   selected: y
+
+
+  # - title: "Observational Causal Inference Using Network Information"
+  #   authors: "Yan Leng, <b>Martin Saveski</b>, Alex ‘Sandy’ Pentland, Dean Eckles"
+  #   venue: "NeurIPS'19, Workshop on Graph Representation Learning. 2019."
+  #   selected: n
+
+  # - title: "Me, My Echo Chamber, and I: Introspection on Social Media Polarization"
+  #   authors: "Nabeel Gillani, Ann Yuan, <b>Martin Saveski</b>, Soroush Vosoughi, Deb Roy"
+  #   venue: "WWW'18: International Conference on the World Wide Web. 2018. <b>(Honarable mention)</b>"
+  #   paper_pdf: "/assets/publications/2018_social_mirror/paper.pdf"
+  #   video: "https://drive.google.com/file/d/0B9-P1m1JkZA7UTRuMUFWcTNueXM/view"
+  #   selected: y

@@ -1,0 +1,419 @@
+---
+layout: default
+title: Home
+---
+
+<style>
+/* Light & Dark tokens */
+:root{
+  --bg:#ffffff; --fg:#111111; --muted:#555; --link:#0066cc; --border:#e5e5e5;
+  --btn-bg:#f4f4f4; --btn-fg:#111; --btn-border:#ccc;
+}
+[data-theme="dark"]{
+  --bg:#0e0e11; --fg:#e9e9ef; --muted:#b5b5c0; --link:#8ab4ff; --border:#2a2a33;
+  --btn-bg:#1c1c22; --btn-fg:#e9e9ef; --btn-border:#3a3a48;
+}
+
+/* Apply tokens */
+html, body { background: var(--bg); color: var(--fg); }
+a { color: var(--link); }
+.navbar, .docs-section, .project-container, .paper { border-color: var(--border); }
+
+/* Buttons (Skeleton-compatible) */
+.button, .button.button-outline {
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border: 1px solid var(--btn-border);
+}
+.button:hover, .button.button-outline:hover {
+  filter: brightness(1.05);
+}
+
+/* Smooth theme switch */
+* { transition: background-color .15s ease, color .15s ease, border-color .15s ease; }
+</style>
+
+
+<!-- /* style to hide everything below the bio when the informal bio is shown */ -->
+<style>
+  #below-bio.hidden { display: none !important; }
+</style>
+
+
+
+
+<!-- ========== BIO (with tabs) ========== -->
+<div class="docs-section" id="bio">
+  <h4>Bio</h4>
+
+  <!-- Tabs header -->
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#bio-formal">Bio</div></li>
+    <li><div class="button" data-ref="#bio-informal">Informal Bio</div></li>
+  </ul>
+
+  <!-- Tabs content -->
+  <div class="tab-content">
+    
+    <!-- Formal bio -->
+    <div class="tab-pane active" id="bio-formal">
+      <p>
+        I’m a Postdoctoral Researcher at the Singapore-MIT Alliance for Research and Technology, mentored by 
+        <a href='https://scholar.google.com/citations?user=xdGRNpwAAAAJ&hl=en&oi=ao'>Siqi Zheng</a> 
+        (MIT <a href='https://www.siqizheng.com/'>SUL</a>) and 
+        <a href='https://scholar.google.com/citations?user=oI9m0yYAAAAJ&hl=en&oi=ao'>Fabio Duarte</a> 
+        (MIT <a href='https://senseable.mit.edu/'>SCL</a>).
+      </p>
+
+      <p>
+        My research interests lie at the intersection of complex systems, data science, and urban economics.
+        I integrate statistical and computational approaches—including network-based modeling, causal inference, and machine learning—to analyze large-scale human mobility data and explore how it informs sustainable and digital urban development.
+      </p>
+
+      <p>
+        In 2023, I received my Ph.D. in Network and Data Science from ETH Zurich and was supervised by 
+        <a href='https://scholar.google.com/citations?user=U5PTwZsAAAAJ&hl=en&oi=ao'>Frank Schweitzer</a> 
+        (D-MTEC <a href='https://www.sg.ethz.ch/'>Chair of Systems Design</a>). 
+        Before that, I obtained my B.Sc. and M.Sc. in Physics — focused on complex systems and statistical physics — 
+        from Sapienza University of Rome and advised by 
+        <a href='https://scholar.google.com/citations?user=GrDAbaEAAAAJ&hl=en&oi=ao'>Vittorio Loreto</a> 
+        and <a href='https://scholar.google.com/citations?user=3qdaPdoAAAAJ&hl=en&oi=ao'>Francesca Tria</a>.
+      </p>
+    </div>
+
+    <!-- Informal bio -->
+    <div class="tab-pane" id="bio-informal" style="padding: 20px; text-align: center;">
+
+     
+
+      <p>Hi there! Welcome to my informal bio. I'm Ambra.</p>
+
+      <p><i> Physicist in mind, data scientist in body, and social scientist in soul.</i></p>
+
+      <p>
+        In theory, I spend my days thinking up models and clever metrics.  
+        In practice, I spend them elbow-deep in messy data.  
+        Still, I love it — data is my window to the world.
+      </p>
+
+      <p>
+        When I’m not stress-testing my models, I “stress-test” myself with sports.  
+        Cycling, windsurfing, and hiking are my favorite ways to recharge, but I also love bouldering, skiing, inline skating, snorkeling, and many others.  
+        I rarely say no to an outdoor activity (unless I’m working, of course!).
+      </p>
+
+      <p>
+        I’m always gravitating toward new ideas, places, and cultures.  
+        Traveling fuels my curiosity and broadens my perspective.  
+        Together with science, it keeps my sense of wonder alive.
+      </p>
+     
+       <!-- Picture on top -->
+      <img src="/ambra_amico/assets/profile-pics/pic_up3.jpg"
+           alt="Me enjoying outdoor activities"
+           style="width:100%; max-width:900px; height:auto; border-radius:5px; margin-bottom:0px; object-fit:cover;"> 
+      <!-- Picture on bottom -->
+      <img src="/ambra_amico/assets/profile-pics/pic_bottom.jpg"
+           style="width:100%; max-width:900px; height:auto; border-radius:5px; margin-top:-7px; object-fit:cover;"> 
+    </div>
+  </div>
+</div>
+
+
+<!--
+<div class="docs-section" id="prospective-students">  
+  <h4>Prospective Students</h4>
+  <p>
+  <span style="display: inline-block; margin-bottom: 5px">
+    <b>I'm recruiting PhD students to start Fall 2025 at the University of Washington!</b> 
+  </span>
+  <br/> 
+  <span style="display: inline-block; margin-bottom: 5px">
+    I'm looking for students passionate about developing new <u>social media algorithms</u>, both broadly and within the scope of this <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403434" target="_blank">NSF grant</a> (collaboration with Stanford and Northwestern). For other examples, please see my recent publications. <br/>
+  </span>
+  <span style="display: inline-block; margin-bottom: 5px">
+    Students with strong technical skills and background or interest in social network analysis, machine learning, causal inference, or natural language processing would be a great fit.
+  </span>
+  <br/>
+  <span style="display: inline-block; margin-bottom: 5px">
+    If you are interested, please apply to the UW iSchool <a href="https://ischool.uw.edu/programs/phd/admissions" target="_blank">PhD program</a> and mention me in your application.
+  </span>
+  <br/>
+  <span>
+    If you have any questions, feel free to reach out.
+  </span>
+  </p> 
+</div>
+-->
+
+<!-- START wrapper for everything below bio -->
+<div id="below-bio">
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+   <!-- More info at --> 
+  For an updated list of papers, see my <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>. 
+   <br/>
+  <!-- <sup>‡</sup> indicates equal contribution.
+  </p> -->
+</p>
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+ 
+
+<!-- ========== PROJECTS ========== 
+<div class="docs-section" id="projects">
+  <h4>Projects</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
+    <li><div class="button" data-ref="#projects-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="projects-selected">
+      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+      {% for project in selected_projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="projects-all">
+      {% for project in site.data.projects.projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+-->
+<!-- 
+========== RESUME ========== -->
+<!-- <div class="docs-section" id="resume">
+  <h4>Vitæ</h4>
+
+  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+
+  The Timeline -->
+  <!-- <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div> -->
+
+
+
+<div class="docs-section" id="template">
+  <h4>Acknowledgement</h4>
+  Thanks  <a href="https://github.com/msaveski/www_personal" target="_blank">Martin Saveski</a> for the nice template.
+   <br/>
+  <!-- Thanks Since I made this website, many people have found this Jekyll template useful [
+  {% for template_user in site.data.template_users.template_users %}
+  <a href="{{ template_user }}" target="_blank">{{ forloop.index }}</a>{% if forloop.last %}{% else %},{% endif %}
+  {% endfor %}
+  ].
+ 
+  You can find all the code needed to build your website in this
+  Feel free to use it. <br/>
+
+  If you end up using it, please link to here and drop me an email.
+  I'm always happy to see people using it. -->
+</div>  
+
+</div>  <!-- END wrapper for everything below bio -->    
+
+
+<script>
+(function(){
+  const KEY='theme';
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const saved = localStorage.getItem(KEY);
+  const initial = saved || 'light';
+  <!-- const initial = saved || (prefersDark ? 'dark' : 'light'); -->
+
+  const root = document.documentElement;
+  const btn  = document.getElementById('theme-toggle');
+
+  function setTheme(t){
+    root.setAttribute('data-theme', t);
+    localStorage.setItem(KEY, t);
+    if (btn) btn.textContent = (t === 'dark') ? '🌙' : '☀️';
+  }
+
+  setTheme(initial);
+  btn && btn.addEventListener('click', () =>
+    setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark')
+  );
+})();
+</script>
+
+<script>
+(function () {
+  var below = document.getElementById('below-bio');
+  var bio   = document.getElementById('bio');
+  if (!bio || !below) return;
+
+  function hideBelow(){ below.classList.add('hidden'); }
+  function showBelow(){ below.classList.remove('hidden'); }
+
+  // Wire up the two bio tabs
+  document.querySelectorAll('#bio .tab-nav .button').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var ref = btn.getAttribute('data-ref');
+      if (ref === '#bio-informal') hideBelow();
+      if (ref === '#bio-formal')   showBelow();
+    });
+  });
+
+  // Support opening with a hash
+  if (location.hash === '#bio-informal') hideBelow();
+
+  // If the hash changes (optional nicety)
+  window.addEventListener('hashchange', function(){
+    if (location.hash === '#bio-informal') hideBelow(); else showBelow();
+  });
+})();
+</script>
+
+

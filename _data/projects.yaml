@@ -1,0 +1,8 @@
+projects:
+  - title: ""
+    subtitle: ""
+    thumbnail: "assets/projects/folder/pic.jpg"
+    url: "projects/.html"
+    selected: y
+
+

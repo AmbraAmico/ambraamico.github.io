@@ -1,0 +1,45 @@
+papers:
+
+# - title: "Air Connectivity Boosts Urban Attractiveness for Global Firms"
+#   authors: "Ambra Amico, Fabio Duarte, Wen-Chi Liao, Siqi Zheng"
+#   venue: "Nature Cities (accepted)."
+#   # paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+#   selected: y
+
+- title: "Efficiency and resilience: key drivers of distribution network growth"
+  authors: "Ambra Amico, Giacomo Vaccario, Frank Schweitzer"
+  venue: "EPJ Data Science. 2024."
+  # paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: n
+
+- title: "Tracing opioids across the us: A high-resolution pharmaceutical distribution dataset"
+  authors: "Ambra Amico, Luca Verginer, Frank Schweitzer"
+  venue: "Scientific Data. 2024."
+  # paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: y
+
+- title: "Adapting to disruptions: Managing supply chain resilience through product rerouting"
+  authors: "Ambra Amico, Luca Verginer, Giona Casiraghi, Giacomo Vaccario, Frank Schweitzer"
+  venue: "Science Advances. 2024."
+  #paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: y
+
+
+- title: "Modeling the Dynamics of Distribution Networks: A Data-Driven Approach to Supply Chains"
+  authors: "Ambra Amico"
+  venue: "ETH Zurich. 2023."
+  #paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: n
+
+- title: "Unsupervised inference approach to facial attractiveness"
+  authors: "Miguel Ibanez-Berganza, Ambra Amico, Gian Luca Lancia, Federico Maggiore, Bernardo Monechi, Vittorio Loreto"
+  venue: "PeerJ. 2020."
+  #paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: n
+
+- title: "Subjectivity and complexity of facial attractiveness"
+  authors: "Miguel Ibanez-Berganza, Ambra Amico, Vittorio Loreto"
+  venue: "Scientific Reports. 2019."
+  #paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
+  selected: y
+

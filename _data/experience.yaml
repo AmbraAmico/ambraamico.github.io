@@ -1,0 +1,20 @@
+experiences:
+
+- place: "University"
+  time: "2023 - now"
+  title: "Professor"
+  subtitle: "Information School"
+  category: "work"
+
+- place: "ETH"
+  time: "2018 - 2023"
+  title: "Ph.D. Student"
+  subtitle: "Chair of Systems Design"
+  category: "school"
+
+
+- place: "Sapienza University of Rome"
+  time: ""
+  title: "B.Sc. Student"
+  subtitle: ""
+  category: "school"
