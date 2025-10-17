@@ -1,3 +1,6 @@
+## Acknowledgements
+
+This website is based on the template by Martin Saveski (https://github.com/msaveski](https://github.com/msaveski/www_personal).
 
 ## Updates guide
 Change one of the files in `_data`, unless you are changing the look of the website.
