@@ -1,0 +1,16 @@
+current directory: /home/aamico/webpage/my_personal_www/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/aamico/.rbenv/versions/3.1.4/bin/ruby -I /home/aamico/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/aamico/webpage/my_personal_www/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250930-61566-2xdcxb sitelibdir\=./.gem.20250930-61566-2xdcxb clean
+
+current directory: /home/aamico/webpage/my_personal_www/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250930-61566-2xdcxb sitelibdir\=./.gem.20250930-61566-2xdcxb
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/aamico/webpage/my_personal_www/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20250930-61566-2xdcxb sitelibdir\=./.gem.20250930-61566-2xdcxb install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20250930-61566-2xdcxb

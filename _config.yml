@@ -1,8 +1,9 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: "/ambra_amico"
-url: "http://127.0.0.1:4000"
+url: "https://ambraamico.github.io"
+baseurl: ""     # must be empty for user sites
+
 
 
 collections:
